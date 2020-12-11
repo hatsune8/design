@@ -1,24 +1,18 @@
-# README
+# design
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## サイト概要
+デザインリスト
+カラーデザイン帳に基づいたカラーでデザインリストを作る
 
-Things you may want to cover:
+## 設計書
 
-* Ruby version
+### 機能一覧
 
-* System dependencies
+## 開発環境
+- OS：Linux(CentOS)
+- 言語：HTML,CSS,JavaScript,Ruby,SQL
+- フレームワーク：Ruby on Rails
+- JSライブラリ：jQuery
+- IDE ： Cloud9
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## 使用素材
