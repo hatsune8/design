@@ -5,4 +5,8 @@ Rails.application.routes.draw do
 
   resources :lists
 
+  get 'list/pop' => 'lists#pop'
+  get 'list/natural' => 'lists#natural'
+  get 'list/elegant' => 'lists#elegant'
+
 end
