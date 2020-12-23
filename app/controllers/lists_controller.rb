@@ -1,16 +1,17 @@
 class ListsController < ApplicationController
-  
+
   def index
   end
-  
+
   def pop
-  end 
-  
+  end
+
   def elegant
-  end 
-  
+    @words = Word.all
+  end
+
   def natural
   end
 
-  
+
 end

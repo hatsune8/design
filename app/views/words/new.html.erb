@@ -1,0 +1,7 @@
+  <div class="word-form">
+    <%= form_with model:@word, local:true do |f| %>
+    <%= f.text_field :english %>
+    <%= f.text_field :japanese %>
+    <%= f.submit '投稿' %>
+    <% end %>
+  </div>

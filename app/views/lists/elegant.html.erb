@@ -1,2 +1,35 @@
 <div class="header-elegant"></div>
+<div class="elegant-body">
+  <div class="elegant-top"></div>
+  スモーキーパープル#dbcbc7
+  ダルネスパープル#7f5072
+  ディープレイク#acb0a8
+
+
+
+
+  <%= link_to "word", new_word_path, class: "" %>
+
+
+
+  <div class="elegant-main">
+    <div class="word-list">
+      <table class="table">
+        <thead>
+        <th>English</th>
+        <th>日本語</th>
+        </thead>
+        <% @words.each do |word| %>
+          <tbody>
+          <td><%= word.english %></td>
+          <td><%= word.japanese %></td>
+          </tbody>
+        <% end %>
+      </table>
+    </div>
+  </div>
+
+
+
+</div>
 <div class="footer-elegant"></div>
