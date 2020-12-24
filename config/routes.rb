@@ -8,8 +8,8 @@ Rails.application.routes.draw do
   get 'list/pop' => 'lists#pop'
   get 'list/natural' => 'lists#natural'
   get 'list/elegant' => 'lists#elegant'
-  
+
   resources :words
-  
+
 
 end
