@@ -19,11 +19,13 @@
         <thead>
         <th>English</th>
         <th>日本語</th>
+        <th></th>
         </thead>
         <% @words.each do |word| %>
           <tbody>
           <td><%= word.english %></td>
           <td><%= word.japanese %></td>
+          <td><%= link_to "delete", word_path(word), method: :delete, class: "btn btn-danger" %></td>
           </tbody>
         <% end %>
       </table>

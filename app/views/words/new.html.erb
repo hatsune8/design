@@ -1,3 +1,5 @@
+  <%= flash[:warning] %>
+
   <div class="word-form">
     <%= form_with model:@word, local:true do |f| %>
     <%= f.text_field :english %>
