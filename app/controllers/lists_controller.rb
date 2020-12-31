@@ -11,6 +11,7 @@ class ListsController < ApplicationController
   end
 
   def natural
+    @words_random = Word.order("RANDOM()").limit(5)
   end
 
 
