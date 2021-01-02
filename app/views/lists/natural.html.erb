@@ -5,12 +5,18 @@
   キャラメルクリーム#e4c6a6
   バフブラウン#8e775d
   ラクダベージュ#e6cd8c
-
-
-  <% @words_random.each do |word| %>
-  <%= word.english %>
-  <%= word.japanese %>
-  <% end %>
+  <div class="natural-main">
+    <div class="word-ramdom">
+      <% @words_random.each do |word| %>
+        <div class="word-english">
+          <%= word.english %>
+        </div>
+        <div class="word-japanese">
+          <%= word.japanese %>
+        </div>
+      <% end %>
+    </div>
+  </div>
 
 
   <%= link_to "next", list_natural_path, class: "btn btn-primary" %>
