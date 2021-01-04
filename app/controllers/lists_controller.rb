@@ -4,6 +4,7 @@ class ListsController < ApplicationController
   end
 
   def pop
+    @words = Word.order("RANDOM()").limit(1)
   end
 
   def elegant

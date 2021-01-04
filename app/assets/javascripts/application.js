@@ -16,3 +16,10 @@
 //= require jquery
 //= require bootstrap-sprockets
 //= require_tree .
+
+$(function(){
+    $(".word-japanese").css({opacity:'0'});
+    setTimeout(function(){
+        $(".word-japanese").stop().animate({opacity:'1'},1000);
+    },3000);
+});
