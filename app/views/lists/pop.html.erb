@@ -1,18 +1,24 @@
-<div class="header-pop"></div>
 <div class="pop-body">
+<div class="header-pop"></div>
 
-  クリアエール#c0e4f2
-  プレシャスクレイ#ded3d6
-  ベイビーシープ#fffcd7
-
-  <% @words.each do |word| %>
-  <%= word.english %>
-  <div class="word-japanese">
-  <%= word.japanese %>
+  <!--クリアエール#c0e4f2-->
+  <!--プレシャスクレイ#ded3d6-->
+  <!--ベイビーシープ#fffcd7-->
+  <div class="pop-main">
+    <h1 class="pop-title">English Test</h1>
+    <h3>3秒後に日本語訳が表示されます</h3>
+    <div class="pop-test">
+      <% @words.each do |word| %>
+      <%= word.english %>
+      <div class="word-japanese">
+      <%= word.japanese %>
+      </div>
+      <% end %>
+    </div>
   </div>
-  <% end %>
-  
-  
 
-</div>
+
+
+
 <div class="footer-pop"></div>
+</div>
